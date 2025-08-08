@@ -29,7 +29,7 @@ public class PhantomTrackerClient implements ClientModInitializer {
     public void onInitializeClient() {
         LOGGER.info("PhantomTracker mod initialized!");
         
-        // Create log file if it doesn't exist
+        // Create log file if it does not exist
         try {
             if (!Files.exists(LOG_FILE_PATH)) {
                 Files.createFile(LOG_FILE_PATH);
@@ -45,14 +45,14 @@ public class PhantomTrackerClient implements ClientModInitializer {
         String logMessage = String.format("Phantom spawned at X: %.1f, Y: %.1f, Z: %.1f", 
                                         position.x, position.y, position.z);
         
-        // Log to chat (client-side only, no operator needed)
+        // Logs to chat
         MinecraftClient client = MinecraftClient.getInstance();
         if (client.player != null && client.world != null) {
-            // Use inGameHud to display message locally without sending to server
+
             client.inGameHud.getChatHud().addMessage(Text.literal("§6[PhantomTracker] §f" + logMessage));
         }
         
-        // Log to file (completely local)
+        // Logs to file
         try (FileWriter writer = new FileWriter(LOG_FILE_PATH.toFile(), true)) {
             writer.write(String.format("[%s] %s%n", timestamp, logMessage));
             writer.flush();
@@ -63,4 +63,5 @@ public class PhantomTrackerClient implements ClientModInitializer {
         // Log to console (local only)
         LOGGER.info(logMessage);
     }
+
 }
