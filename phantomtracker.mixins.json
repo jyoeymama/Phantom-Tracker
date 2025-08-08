@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.phantomtracker.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "phantomtracker.refmap.json",
+  "client": [
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

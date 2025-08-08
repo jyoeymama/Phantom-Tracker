@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "phantomtracker",
+  "version": "1.0.0",
+  "name": "Phantom Tracker",
+  "description": "Logs phantom spawn coordinates to chat and file",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/phantomtracker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.phantomtracker.PhantomTrackerClient"
+    ]
+  },
+  "mixins": [
+    "phantomtracker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.0"
+  },
+  "suggests": {}
+}
