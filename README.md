@@ -2,8 +2,8 @@
 
 Welcome to Phantom Tracker, A sophisticated mod that uses packets from phantoms to be sent to a players client with in game coordinates attached.
 TODO: Add files to the correct location (gradle is not compiling because i need everything sorted like the tree below for it to work)
-
-```Phantom-Tracker-main/
+```
+Phantom-Tracker-main/
 ├── build.gradle
 ├── gradle.properties
 ├── gradlew.bat
