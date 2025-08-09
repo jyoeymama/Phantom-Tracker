@@ -4,7 +4,7 @@ Welcome to Phantom Tracker, A sophisticated mod that uses packets from phantoms 
 
 This is the most powerful coordinate exploit made by Severedprince and Mewover!
 
-TODO: Add files to the correct location (gradle is not compiling because i need everything sorted like the tree below for it to work)
+TODO: Add files to the correct location (gradle is not compiling because I need everything sorted like the tree below for it to work)
 ```
 Phantom-Tracker-main/
 ├── build.gradle
