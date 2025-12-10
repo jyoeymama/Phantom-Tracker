@@ -2,7 +2,7 @@
 
 Welcome to Phantom Tracker, A sophisticated mod that uses packets from phantoms to be sent to a players client with in game coordinates attached.
 
-This is one of the most powerful coordinate exploit made by Severedprince and Mewover!
+This is one of the most powerful coordinate exploit made by Severedprince and Mewover! This mod was made for version 1.21 Minecraft (fabric). To use this mod, Simply drag it into your mods folder. Warning! You must have fabric api installed for thi mod to work properly! otherwise your game will crash. Please feel free to email me at jyomama28@gmail.com for any questions or suggestions. If you support what I do consider dropping a star or a follow! I love and apperciate all the support! Enjoy this cool mod!
 
 This is the file structure:
 ```
